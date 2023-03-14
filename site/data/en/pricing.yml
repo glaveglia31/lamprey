@@ -1,0 +1,51 @@
+########################################### Pricing #########################################
+pricing_table : 
+  # pricing table loop
+  - title : Starter HD
+    icon : ti-medall # themify icon pack : https://themify.me/themify-icons
+    # value : $439,99
+    # unit :  Final Price
+    link : 'https://www.lampreyusa.com/contact/'
+    service_list: 
+      - Turbo DVR 8CH 1080P
+      - 1TB HDD
+      - 4x AHD Indoor IR Dome Cameras
+      - Power Supply @20A for 18 Channels
+      - 4x Male 3.5mm Adapters 
+      - 4x HD Transceiver Kit (HD Balluns)
+      - Free Consultancy
+      - Instalation not included
+      
+  # pricing table loop
+  - title : Premium HD
+    icon : ti-medall-alt # themify icon pack : https://themify.me/themify-icons
+    # value : $509,99
+    # unit : Final Price
+    link : 'https://www.lampreyusa.com/contact/'
+    service_list : 
+      - Turbo DVR 8CH 1080P
+      - 2TB HDD
+      - 4x AHD Indoor IR Dome Cameras
+      - 4x AHD Outdoor IR Bullet Cameras
+      - Power Supply @20A for 18 Channels
+      - 8x Male 3.5mm Adapters 
+      - 8x HD Transceiver Kit (HD Balluns)
+      - Free Consultancy
+      - 1 Month Free of 1CH Cloud Storage
+      - Instalation not included
+      
+  # pricing table loop
+  - title : Platinum 4K
+    icon : ti-crown # themify icon pack : https://themify.me/themify-icons
+    # value : $4699,99
+    # unit : Final Price
+    link : 'https://www.lampreyusa.com/contact/'
+    service_list : 
+      - Turbo NVR 16CH 8MP
+      - 4TB HDD
+      - 8x 8MP Indoor IR Dome Cameras PoE
+      - 8x 8MP Outdoor IR Bullet Cameras PoE
+      - 24 Ports Ethernet Switch PoE
+      - Free Consultancy
+      - 1 Month Free of 1CH Cloud Storage
+      - Instalation not included

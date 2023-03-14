@@ -1,0 +1,178 @@
+###################### hero slider ###########################
+slider:
+  enable : true
+  slider_Item:
+    # slider item loop
+    - bg_image : images/banner/banner-1.jpg
+      animation_from : left
+      subtitle : We are the
+      title : CCTV Experts
+      content : Let Lamprey Security Solutions help protect your most valuable assets.
+      pagination_icon : ti-video-camera # themify icon pack : https://themify.me/themify-icons
+      pagination_name : CCTV
+      button:
+        enable : false
+        label: More details
+        link : "about"
+        
+    # slider item loop
+    - bg_image : images/banner/banner-2.jpg
+      animation_from : up
+      subtitle : Get your
+      title : Bulgar Alarm
+      content : We handle all alarm installations <br> in commercial and residential buildings
+      pagination_icon : ti-shield # themify icon pack : https://themify.me/themify-icons
+      pagination_name : Bulgar Alarms
+      button:
+        enable : false
+        label: More details
+        link : "about"
+        
+    # slider item loop
+    - bg_image : images/banner/banner-3.jpg
+      animation_from : down
+      subtitle : Enjoy your
+      title : Smart Home
+      content :  With smart devices, you can control everything from lights to your security system.
+      pagination_icon : ti-home # themify icon pack : https://themify.me/themify-icons
+      pagination_name : Automation
+      button:
+        enable : false
+        label: More details
+        link : "about"
+        
+    # slider item loop
+    - bg_image : images/banner/banner-4.jpg
+      animation_from : right
+      subtitle : Switch to
+      title : Access Control
+      content : Take your business to the next level with access control system installation
+      pagination_icon : ti-lock # themify icon pack : https://themify.me/themify-icons
+      pagination_name : Access Control
+      button:
+        enable : false
+        label: More details
+        link : "about"
+
+########################################## Service ####################################
+service:
+  enable : true
+  # service item comes from "content/service" folder
+
+
+######################################## About #########################################
+about:
+  enable : true
+  bg_image : "images/background/about-bg.jpg"
+  title : "Who We Are?"
+  content : "For 13 years, Lamprey has made the security of our customers our top priority. Today, over 300 locations throughout Florida ensure that our customers stay as safe and secure as possible."
+  # bullet point
+  bullet_point:
+    - "Smart Security"
+    - "Video Survillance"
+    - "Access Control"
+    - "Monitored Intrusion Detection"
+  button:
+    enable : true
+    label : "Explore More"
+    link : "about"
+
+##################################### Skill ##############################################
+skill:
+  enable : true
+  subtitle : Why Choose Lamprey?
+  title : Our motto is "Protect"
+  content: We have always believed that everyone wants to feel safe. For 13 years, that has been at the END of what we do every day. And it guides everything we do for our clients.
+  # funfacts
+  funfacts :
+    - icon : ti-check-box # themify icon pack : https://themify.me/themify-icons
+      title : Projects Done
+      count : 312
+      
+    - icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
+      title : Satisfied Clients
+      count : 290
+      
+    - icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
+      title : Cup Of Coffee
+      count : 1773
+
+  # progressbar
+  progressbar : 
+    - title : Quality in our Products
+      progress : 99%
+   
+    - title : Commitment of our Employees
+      progress : 100%
+      
+    - title : Next Day Service
+      progress : 90%
+      
+########################################## project ####################################
+project:
+  enable : true
+  # project item comes from "content/project" folder
+
+########################################### Mission ###################################
+mission:
+  enable : true
+  subtitle : Our Goal
+  title : Company Mission
+  # content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image : images/mission.png
+  accordion:
+    - title : Our Company Mission
+      description : To provide superior products and services to our clients, through the development of integrated solutions and innovations that help organize the world of information and make them useful and universally accessible.
+      
+    - title : Our Company Vision
+      description : Consolidate Lamprey Security Solutions as a leader in the security sector, and be recognized as a consultant that has a social conscience, that customer service will be the highest and that as the company grows, always keep the motto of personalized attention.
+      
+    - title : Our Company Goal
+      description : Protect and safeguard the goods and people placed in our care with the greatest efficiency in the cost-outcome ratio. Generate a perception of security and trust that favors the productive, commercial, service activity, or the well-being of our clients.
+
+##################################### Promo video ####################################
+promo_video:
+  enable : true
+  title : "Why choose Us?"
+  bg_image : "images/background/promo-video.jpg"
+  video_URL : "https://vimeo.com/432616487"
+  video_title : "See what Lamprey can <br> do for you."
+
+##################################### call to action #################################
+testimonial:
+  enable : true
+  subtitle : Clients
+  title : What client Say
+  image : images/client.png
+  testimonial_item :
+    - name : Julia R.
+      content : Lamprey have a wonderful service. Highly recommend security company! I would definitely stay with Lamprey.
+      designation : CCTV & Bulgar Alarm for Bussiness
+      
+    - name :  Robert A.
+      content : It gives me the peace of mind knowing that my house is looked after by professionals. I understand that there are things that can be further improved, but I am very satisfied with the service.
+      designation : Home CCTV & Bulgar Alarm
+      
+    - name : Jhon S.
+      content : Even living in a less urbanized area than where I had my previous home, I feel more protected and safe. My tranquility has increased since I have Lamprey, there are many hours that both my wife and I spend away from home for work reasons.
+      designation : Bulgar Alarm
+
+##################################### call to action #################################
+cta:
+  enable : true
+  bg_image : "images/background/cta.jpg"
+  title : "Lamprey give the smart solution for your business"
+  button:
+    enable : true
+    label : "get a quote"
+    link : "contact"
+      
+########################################## blog ####################################
+blog:
+  enable : false
+  # blog item comes from "content/blog" folder
+  
+################################ clints logo slider ################################
+clients_logo_slider:
+  enable : true
+  # clients logo comes from "config.toml" folder

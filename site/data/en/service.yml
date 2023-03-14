@@ -1,0 +1,26 @@
+################################## Satisfied clients ###############################
+satisfied_clients:
+  enable : true
+  bg_image :
+  subtitle : The brands
+  title : We work with
+  content : We work with some of the biggest brands from across the globe and some of the largest and most prestigious security industry. From Avigilon & Cisco and Ubiquiti to Axis and Pelco, we have extensive experience of working with a wide range of cross-sector companies.
+  logo:
+    - images/client-logo/avigilon-white.png
+    - images/client-logo/epcom-white.png
+    - images/client-logo/bosch-white.png
+    - images/client-logo/cisco-white.png
+    - images/client-logo/nest-white.png
+    - images/client-logo/ubiquiti-white.png
+    - images/client-logo/panasonic-white.png
+    - images/client-logo/uniden-white.png
+    - images/client-logo/netgear-white.png
+    - images/client-logo/hikvision-white.png
+    - images/client-logo/dahua-white.png
+    - images/client-logo/pelco-white.png
+    - images/client-logo/grandstream-white.png
+    
+##################################### call to action #################################
+testimonial:
+  enable : true
+  # testimonial content comes from "data/*/homepage.yml" file

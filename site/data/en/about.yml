@@ -1,0 +1,48 @@
+###################################### philosophy ####################################
+philosophy:
+  enable : true
+  subtitle : Our Ethic's
+  title : Our Philosophy
+  content : All of our clients trust us to protect what they love and value the most. Earning and maintaining your trust is critical to the success of our business, which is why we have the highest ethical standards for our industry.
+  image : images/about/philosophy.jpg
+
+###################################### ceo ########################################
+ceo:
+  enable : true
+  bg_image : images/about/ceo.jpg
+  title : We are efficient to <br> make your business and home safe from intruders
+  content : At lamprey, we work very hard so that our clients feel safe from the first day, and that they always count on us to help them solve their doubts regarding the products and services we give them.
+  signature : images/about/ceo-signature.png
+  name : Gaetano Laveglia
+  designation : CEO
+
+########################################### Mission ###################################
+mission:
+  enable : true
+  # mission content comes from "data/*/homepage.yml" file
+
+###################################### funfacts ####################################
+funfacts: 
+  enable : true
+  bg_image : images/background/cta.jpg
+  counter:
+    - title : Projects Done
+      icon : ti-check-box # themify icon pack : https://themify.me/themify-icons
+      count : 312
+      
+    - title : Satisfied Clients
+      icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
+      count : 290
+      
+    - title : Cup Of Coffee
+      icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
+      count : 1773
+      
+    - title : Work Accidents
+      icon : ti-hummer # themify icon pack : https://themify.me/themify-icons
+      count : 0
+
+########################################### skill ###################################
+skill:
+  enable : true
+  # skill content comes from "data/*/homepage.yml" file
